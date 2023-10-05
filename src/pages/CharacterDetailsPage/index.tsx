@@ -2,7 +2,7 @@ import React from 'react';
 import { useQuery } from '@apollo/client';
 import { GET_CHARACTER } from '../../queries';
 import { RouteComponentProps, useHistory } from 'react-router-dom';
-import { Box, Button } from '@mui/material';
+import { Box } from '@mui/material';
 
 interface MatchParams {
   id: string;

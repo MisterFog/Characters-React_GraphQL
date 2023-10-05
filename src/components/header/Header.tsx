@@ -3,7 +3,7 @@ const Header = () => {
 
   return (
     <header className="nft_prices-header" data-testid="header">
-      <div>NFT Prices - Developer Challenge</div>
+      <div>Developer Challenge</div>
       {/* {user.email && <div className="blackshield-avatar">{user.email}</div>} */}
     </header>
   );
