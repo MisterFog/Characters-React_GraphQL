@@ -1,0 +1,31 @@
+.nft_prices {
+  &-header {
+    box-sizing: content-box;
+    background-color: #ffe6ea;
+    border-bottom: 2px solid #ff4d6a;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-avatar {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-right: 2rem;
+
+    &::before {
+      width: 40px;
+      height: 40px;
+      content: '';
+      display: block;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url('../../assets/icon/avatar.svg');
+    }
+  }
+}

@@ -1,0 +1,10 @@
+$s: 640px;
+$m: 1200px;
+$l: 1366px;
+$xl: 1440px;
+$xxl: 1600px;
+
+@import './app.scss';
+@import '../components/footer/footer.scss';
+@import '../components/header/header.scss';
+@import '../pages/HomePage/homePage.scss';

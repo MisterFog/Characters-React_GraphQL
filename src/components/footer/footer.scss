@@ -1,0 +1,15 @@
+.nft_prices-footer {
+  display: flex;
+  background-color: #ffe6ea;
+  border-top: 2px solid #ff4d6a;
+  bottom: 0px;
+  box-sizing: border-box;
+  position: fixed;
+  padding: 1rem;
+  z-index: 1;
+  width: 100%;
+
+  span {
+    margin-left: auto;
+  }
+}
